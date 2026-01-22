@@ -1,5 +1,3 @@
-local ConfigURL = "https://raw.githubusercontent.com/YOUR_USERNAME/game-config/main/config.lua"
-
 local function LoadConfigFromGitHub()
     print("[LOADING] Fetching config from GitHub...")
     local success, result = pcall(function()
